@@ -7,7 +7,7 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane prefHeight="725.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane prefHeight="725.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MiniProjectMainControl">
    <top>
       <AnchorPane prefHeight="319.0" prefWidth="932.0" style="-fx-background-color: #2A2B40;" BorderPane.alignment="CENTER">
          <children>
@@ -20,19 +20,19 @@
                <font>
                   <Font size="18.0" />
                </font></Label>
-            <Button fx:id="shoulder" layoutX="99.0" layoutY="102.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="145.0" style="-fx-background-color: #B6CEFB; -fx-background-radius: 10;" text="어깨" textFill="WHITE">
+            <Button fx:id="shoulder" layoutX="99.0" layoutY="102.0" mnemonicParsing="false" onAction="#shoulderHandleBtnOnAction" prefHeight="48.0" prefWidth="145.0" style="-fx-background-color: #B6CEFB; -fx-background-radius: 10;" text="어깨" textFill="WHITE">
                <font>
                   <Font name="Impact" size="25.0" />
                </font></Button>
-            <Button fx:id="chest" layoutX="294.0" layoutY="102.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="145.0" style="-fx-background-color: #B6CEFB; -fx-background-radius: 10;" text="가슴" textFill="WHITE">
+            <Button fx:id="chest" layoutX="294.0" layoutY="102.0" mnemonicParsing="false" onAction="#chestHandleBtnOnAction" prefHeight="48.0" prefWidth="145.0" style="-fx-background-color: #B6CEFB; -fx-background-radius: 10;" text="가슴" textFill="WHITE">
                <font>
                   <Font name="Impact" size="25.0" />
                </font></Button>
-            <Button fx:id="back" layoutX="493.0" layoutY="102.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="145.0" style="-fx-background-color: #B6CEFB; -fx-background-radius: 10;" text="등" textFill="WHITE">
+            <Button fx:id="back" layoutX="493.0" layoutY="102.0" mnemonicParsing="false" onAction="#backHandleBtnOnAction" prefHeight="48.0" prefWidth="145.0" style="-fx-background-color: #B6CEFB; -fx-background-radius: 10;" text="등" textFill="WHITE">
                <font>
                   <Font name="Impact" size="25.0" />
                </font></Button>
-            <Button fx:id="lowerBody" layoutX="680.0" layoutY="102.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="145.0" style="-fx-background-color: #B6CEFB; -fx-background-radius: 10;" text="하체" textFill="WHITE">
+            <Button fx:id="lowerBody" layoutX="680.0" layoutY="102.0" mnemonicParsing="false" onAction="#lowerBodyHandleBtnOnAction" prefHeight="48.0" prefWidth="145.0" style="-fx-background-color: #B6CEFB; -fx-background-radius: 10;" text="하체" textFill="WHITE">
                <font>
                   <Font name="Impact" size="25.0" />
                </font></Button>
@@ -72,7 +72,7 @@
          </children></AnchorPane>
    </bottom>
    <center>
-      <Pane prefHeight="282.0" prefWidth="907.0" style="-fx-background-color: #2A2B40;" BorderPane.alignment="CENTER">
+      <Pane fx:id="changeTable" prefHeight="282.0" prefWidth="907.0" style="-fx-background-color: #2A2B40;" BorderPane.alignment="CENTER">
          <children>
             <GridPane layoutX="62.0" layoutY="6.0" prefHeight="218.0" prefWidth="796.0" style="-fx-background-color: #5661DB;">
               <columnConstraints>
@@ -202,12 +202,12 @@
                         <Font name="Arial Bold" size="18.0" />
                      </font>
                   </Label>
-                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #9ec7ff;" text="  count" textAlignment="CENTER" textFill="#fcfcfc" GridPane.columnIndex="2">
+                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #9ec7ff;" text=" count" textAlignment="CENTER" textFill="#fcfcfc" GridPane.columnIndex="2">
                      <font>
                         <Font name="Arial Bold" size="18.0" />
                      </font>
                   </Label>
-                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #9ec7ff;" text="  Set" textAlignment="CENTER" textFill="#fcfcfc" GridPane.columnIndex="1">
+                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #9ec7ff;" text=" Set" textAlignment="CENTER" textFill="#fcfcfc" GridPane.columnIndex="1">
                      <font>
                         <Font name="Arial Bold" size="18.0" />
                      </font>

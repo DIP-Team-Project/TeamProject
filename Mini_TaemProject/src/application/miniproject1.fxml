@@ -37,22 +37,22 @@
                   <Font name="Impact" size="25.0" />
                </font></Button>
             <ImageView fitHeight="93.0" fitWidth="142.0" layoutX="100.0" layoutY="153.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="112.0" fitWidth="146.0" layoutX="98.0" layoutY="176.0">
+            <ImageView fx:id="image1" fitHeight="112.0" fitWidth="146.0" layoutX="98.0" layoutY="176.0">
                <image>
                   <Image fx:id="shoulderImage" url="@../../../../../Users/김건우/Desktop/운동이미지자료/가슴/덤벨%20프레스.jpg" />
                </image>
             </ImageView>
-            <ImageView fitHeight="109.0" fitWidth="145.0" layoutX="294.0" layoutY="178.0">
+            <ImageView fx:id="image2" fitHeight="109.0" fitWidth="145.0" layoutX="294.0" layoutY="178.0">
                <image>
                   <Image fx:id="chestImage" url="@../../../../../Users/김건우/Desktop/운동이미지자료/가슴/덤벨%20플라이.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="106.0" fitWidth="146.0" layoutX="493.0" layoutY="176.0">
+            <ImageView fx:id="image3" fitHeight="106.0" fitWidth="146.0" layoutX="493.0" layoutY="176.0">
                <image>
                   <Image fx:id="backImage" url="@../../../../../Users/김건우/Desktop/운동이미지자료/가슴/벤치%20프레스.jpg" />
                </image>
             </ImageView>
-            <ImageView fitHeight="106.0" fitWidth="146.0" layoutX="680.0" layoutY="176.0">
+            <ImageView fx:id="image4" fitHeight="106.0" fitWidth="146.0" layoutX="680.0" layoutY="176.0">
                <image>
                   <Image fx:id="lowerBodyImage" url="@../../../../../Users/김건우/Desktop/운동이미지자료/가슴/인클라인%20벤치프레스.jpg" />
                </image>
@@ -99,28 +99,28 @@
                         <Font name="System Bold" size="14.0" />
                      </font>
                      <GridPane.margin>
-                        <Insets left="10.0" />
+                        <Insets left="20.0" />
                      </GridPane.margin></CheckBox>
                   <CheckBox fx:id="exercise2" mnemonicParsing="false" prefHeight="22.0" prefWidth="141.0" text="운동2" textFill="WHITE" GridPane.rowIndex="2">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
                      <GridPane.margin>
-                        <Insets left="10.0" />
+                        <Insets left="20.0" />
                      </GridPane.margin></CheckBox>
                   <CheckBox fx:id="exercise3" mnemonicParsing="false" prefHeight="22.0" prefWidth="139.0" text="운동3" textFill="WHITE" GridPane.rowIndex="3">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
                      <GridPane.margin>
-                        <Insets left="10.0" />
+                        <Insets left="20.0" />
                      </GridPane.margin></CheckBox>
                   <CheckBox fx:id="exercise4" mnemonicParsing="false" prefHeight="26.0" prefWidth="136.0" text="운동4" textFill="WHITE" GridPane.rowIndex="4">
                      <font>
                         <Font name="System Bold" size="14.0" />
                      </font>
                      <GridPane.margin>
-                        <Insets left="10.0" />
+                        <Insets left="20.0" />
                      </GridPane.margin></CheckBox>
                   
                   <Button fx:id="start1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="29.0" prefWidth="76.0" text="시작" GridPane.columnIndex="3" GridPane.rowIndex="1">

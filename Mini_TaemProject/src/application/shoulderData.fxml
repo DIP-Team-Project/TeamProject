@@ -112,93 +112,117 @@
                   </Button>
                   <Label fx:id="timeValue1" alignment="CENTER" prefHeight="21.0" prefWidth="136.0" text="0.0" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="1">
                      <font>
-                        <Font name="System Bold" size="17.0" />
+                        <Font name="Arial Bold" size="18.0" />
                      </font>
                   </Label>
                   <Label fx:id="timeValue2" alignment="CENTER" prefHeight="21.0" prefWidth="135.0" text="0.0" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="2">
                      <font>
-                        <Font name="System Bold" size="17.0" />
+                        <Font name="Arial Bold" size="18.0" />
                      </font>
                   </Label>
                   <Label fx:id="timeValue3" alignment="CENTER" prefHeight="21.0" prefWidth="152.0" text="0.0" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="3">
                      <font>
-                        <Font name="System Bold" size="17.0" />
+                        <Font name="Arial Bold" size="18.0" />
                      </font>
                   </Label>
                   <Label fx:id="timeValue4" alignment="CENTER" prefHeight="21.0" prefWidth="146.0" text="0.0" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="4">
                      <font>
-                        <Font name="System Bold" size="17.0" />
+                        <Font name="Arial Bold" size="18.0" />
                      </font>
                   </Label>
-                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #9ec7ff;" text=" Exercise name" textAlignment="CENTER" textFill="WHITE">
+                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #333399;" text=" Exercise name" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial Bold" size="18.0" />
                      </font>
                   </Label>
-                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #9ec7ff;" text="  count" textAlignment="CENTER" textFill="#fcfcfc" GridPane.columnIndex="2">
+                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #333399;" text="  count" textAlignment="CENTER" textFill="#fcfcfc" GridPane.columnIndex="2">
                      <font>
                         <Font name="Arial Bold" size="18.0" />
                      </font>
                   </Label>
-                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #9ec7ff;" text="  Set" textAlignment="CENTER" textFill="#fcfcfc" GridPane.columnIndex="1">
+                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #333399;" text="  Set" textAlignment="CENTER" textFill="#fcfcfc" GridPane.columnIndex="1">
                      <font>
                         <Font name="Arial Bold" size="18.0" />
                      </font>
                   </Label>
-                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #9ec7ff;" text=" Start Time" textAlignment="CENTER" textFill="#fcfcfc" GridPane.columnIndex="3">
+                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #333399;" text=" Start Time" textAlignment="CENTER" textFill="#fcfcfc" GridPane.columnIndex="3">
                      <font>
                         <Font name="Arial Bold" size="18.0" />
                      </font>
                   </Label>
-                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #9ec7ff;" text=" End Time" textAlignment="CENTER" textFill="#fcfcfc" GridPane.columnIndex="4">
+                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #333399;" text=" End Time" textAlignment="CENTER" textFill="#fcfcfc" GridPane.columnIndex="4">
                      <font>
                         <Font name="Arial Bold" size="18.0" />
                      </font>
                   </Label>
-                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #9ec7ff;" text=" Total Time" textAlignment="CENTER" textFill="#fcfcfc" GridPane.columnIndex="5">
+                  <Label alignment="CENTER" prefHeight="41.0" prefWidth="133.0" style="-fx-background-color: #333399;" text=" Total Time" textAlignment="CENTER" textFill="#fcfcfc" GridPane.columnIndex="5">
                      <font>
                         <Font name="Arial Bold" size="18.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="set1" prefHeight="23.0" prefWidth="115.0" promptText="1==1세트" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <TextField fx:id="set1" prefHeight="37.0" prefWidth="92.0" promptText="1==1세트" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <GridPane.margin>
                         <Insets left="20.0" right="20.0" />
                      </GridPane.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
                   </TextField>
-                  <TextField fx:id="set2" promptText="1==1세트" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <TextField fx:id="set2" prefHeight="38.0" prefWidth="92.0" promptText="1==1세트" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <GridPane.margin>
                         <Insets left="20.0" right="20.0" />
                      </GridPane.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
                   </TextField>
-                  <TextField fx:id="set3" promptText="1==1세트" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <TextField fx:id="set3" prefHeight="37.0" prefWidth="92.0" promptText="1==1세트" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <GridPane.margin>
                         <Insets left="20.0" right="20.0" />
                      </GridPane.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
                   </TextField>
-                  <TextField fx:id="set4" promptText="1==1세트" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                  <TextField fx:id="set4" prefHeight="37.0" prefWidth="92.0" promptText="1==1세트" GridPane.columnIndex="1" GridPane.rowIndex="4">
                      <GridPane.margin>
                         <Insets left="20.0" right="20.0" />
                      </GridPane.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
                   </TextField>
-                  <TextField fx:id="count1" promptText="1==1개" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <TextField fx:id="count1" prefHeight="36.0" prefWidth="92.0" promptText="1==1개" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <GridPane.margin>
                         <Insets left="20.0" right="20.0" />
                      </GridPane.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
                   </TextField>
-                  <TextField fx:id="count2" promptText="1==1개" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <TextField fx:id="count2" prefHeight="38.0" prefWidth="92.0" promptText="1==1개" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <GridPane.margin>
                         <Insets left="20.0" right="20.0" />
                      </GridPane.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
                   </TextField>
-                  <TextField fx:id="count3" promptText="1==1개" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                  <TextField fx:id="count3" prefHeight="38.0" prefWidth="92.0" promptText="1==1개" GridPane.columnIndex="2" GridPane.rowIndex="3">
                      <GridPane.margin>
                         <Insets left="20.0" right="20.0" />
                      </GridPane.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
                   </TextField>
-                  <TextField fx:id="count4" promptText="1==1개" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                  <TextField fx:id="count4" prefHeight="37.0" prefWidth="92.0" promptText="1==1개" GridPane.columnIndex="2" GridPane.rowIndex="4">
                      <GridPane.margin>
                         <Insets left="20.0" right="20.0" />
                      </GridPane.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
                   </TextField>
                </children>
                <columnConstraints>

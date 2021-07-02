@@ -23,85 +23,85 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label fx:id="p2count2" alignment="CENTER" prefHeight="20.0" prefWidth="227.0" text=" 개수2" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font></Label>
-            <Label alignment="CENTER" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #9ec7ff;" text="Set" textFill="WHITE" GridPane.columnIndex="1">
+            <Label fx:id="p2count2" alignment="CENTER" prefHeight="45.0" prefWidth="179.0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
                <font>
                   <Font name="Arial Bold" size="18.0" />
                </font></Label>
-            <Label alignment="CENTER" prefHeight="53.0" prefWidth="200.0" style="-fx-background-color: #9ec7ff;" text="Count" textFill="WHITE" GridPane.columnIndex="2">
+            <Label alignment="CENTER" prefHeight="57.0" prefWidth="197.0" style="-fx-background-color: #333399;" text="Set" textFill="WHITE" GridPane.columnIndex="1">
                <font>
                   <Font name="Arial Bold" size="18.0" />
                </font></Label>
-            <Label alignment="CENTER" prefHeight="56.0" prefWidth="193.0" style="-fx-background-color: #9ec7ff;" text="Total time" textFill="WHITE" GridPane.columnIndex="3">
+            <Label alignment="CENTER" prefHeight="53.0" prefWidth="200.0" style="-fx-background-color: #333399;" text="Count" textFill="WHITE" GridPane.columnIndex="2">
                <font>
                   <Font name="Arial Bold" size="18.0" />
                </font></Label>
-            <Label fx:id="p2exercise1" alignment="CENTER" contentDisplay="CENTER" prefHeight="20.0" prefWidth="181.0" text=" 운동이름1" textFill="WHITE" GridPane.rowIndex="1">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font></Label>
-            <Label fx:id="p2timeValue2" alignment="CENTER" prefHeight="20.0" prefWidth="188.0" text=" 시간2" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font></Label>
-            <Label fx:id="p2exercise2" alignment="CENTER" prefHeight="20.0" prefWidth="219.0" text=" 운동이름2" textFill="WHITE" GridPane.rowIndex="2">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font></Label>
-            <Label fx:id="p2set2" alignment="CENTER" prefHeight="20.0" prefWidth="209.0" text=" 세트2" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font></Label>
-            <Label fx:id="p2set1" alignment="CENTER" prefHeight="20.0" prefWidth="185.0" text=" 세트1" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font></Label>
-            <Label fx:id="p2count1" alignment="CENTER" prefHeight="20.0" prefWidth="184.0" text=" 개수1" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font></Label>
-            <Label fx:id="p2timeValue1" alignment="CENTER" prefHeight="20.0" prefWidth="187.0" text=" 시간1" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1">
-               <font>
-                  <Font name="System Bold" size="16.0" />
-               </font></Label>
-            <Label alignment="CENTER" prefHeight="54.0" prefWidth="195.0" style="-fx-background-color: #9ec7ff;" text="Excercise name" textFill="WHITE">
+            <Label alignment="CENTER" prefHeight="56.0" prefWidth="193.0" style="-fx-background-color: #333399;" text="Total time" textFill="WHITE" GridPane.columnIndex="3">
                <font>
                   <Font name="Arial Bold" size="18.0" />
                </font></Label>
-            <Label fx:id="p2exercise4" alignment="CENTER" prefHeight="20.0" prefWidth="214.0" text=" 운동이름4" textFill="WHITE" GridPane.rowIndex="4">
+            <Label fx:id="p2exercise1" alignment="CENTER" contentDisplay="CENTER" prefHeight="47.0" prefWidth="179.0" textFill="WHITE" GridPane.rowIndex="1">
                <font>
-                  <Font name="System Bold" size="16.0" />
+                  <Font name="Arial Bold" size="18.0" />
                </font></Label>
-            <Label fx:id="p2exercise3" alignment="CENTER" prefHeight="20.0" prefWidth="217.0" text=" 운동이름3" textFill="WHITE" GridPane.rowIndex="3">
+            <Label fx:id="p2timeValue2" alignment="CENTER" prefHeight="48.0" prefWidth="178.0" style="-fx-background-color: #3E57A5;" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2">
                <font>
-                  <Font name="System Bold" size="16.0" />
+                  <Font name="Arial Bold" size="18.0" />
                </font></Label>
-            <Label fx:id="p2set3" alignment="CENTER" prefHeight="20.0" prefWidth="193.0" text=" 세트3" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <Label fx:id="p2exercise2" alignment="CENTER" prefHeight="45.0" prefWidth="179.0" textFill="WHITE" GridPane.rowIndex="2">
                <font>
-                  <Font name="System Bold" size="16.0" />
+                  <Font name="Arial Bold" size="18.0" />
                </font></Label>
-            <Label fx:id="p2set4" alignment="CENTER" prefHeight="20.0" prefWidth="198.0" text=" 세트4" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <Label fx:id="p2set2" alignment="CENTER" prefHeight="47.0" prefWidth="179.0" style="-fx-background-color: #3E57A5;" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <font>
-                  <Font name="System Bold" size="16.0" />
+                  <Font name="Arial Bold" size="18.0" />
                </font></Label>
-            <Label fx:id="p2count3" alignment="CENTER" prefHeight="20.0" prefWidth="186.0" text=" 개수3" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <Label fx:id="p2set1" alignment="CENTER" prefHeight="51.0" prefWidth="179.0" style="-fx-background-color: #3E57A5;" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <font>
-                  <Font name="System Bold" size="16.0" />
+                  <Font name="Arial Bold" size="18.0" />
                </font></Label>
-            <Label fx:id="p2count4" alignment="CENTER" prefHeight="20.0" prefWidth="198.0" text=" 개수4" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <Label fx:id="p2count1" alignment="CENTER" prefHeight="56.0" prefWidth="179.0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <font>
-                  <Font name="System Bold" size="16.0" />
+                  <Font name="Arial Bold" size="18.0" />
                </font></Label>
-            <Label fx:id="p2timeValue3" alignment="CENTER" prefHeight="20.0" prefWidth="196.0" text=" 시간3" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            <Label fx:id="p2timeValue1" alignment="CENTER" prefHeight="54.0" prefWidth="178.0" style="-fx-background-color: #3E57A5;" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1">
                <font>
-                  <Font name="System Bold" size="16.0" />
+                  <Font name="Arial Bold" size="18.0" />
                </font></Label>
-            <Label fx:id="p2timeValue4" alignment="CENTER" prefHeight="20.0" prefWidth="191.0" text=" 시간4" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4">
+            <Label alignment="CENTER" prefHeight="54.0" prefWidth="195.0" style="-fx-background-color: #333399;" text="Excercise name" textFill="WHITE">
                <font>
-                  <Font name="System Bold" size="16.0" />
+                  <Font name="Arial Bold" size="18.0" />
+               </font></Label>
+            <Label fx:id="p2exercise4" alignment="CENTER" prefHeight="47.0" prefWidth="179.0" textFill="WHITE" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font></Label>
+            <Label fx:id="p2exercise3" alignment="CENTER" prefHeight="46.0" prefWidth="179.0" textFill="WHITE" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font></Label>
+            <Label fx:id="p2set3" alignment="CENTER" prefHeight="50.0" prefWidth="179.0" style="-fx-background-color: #3E57A5;" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font></Label>
+            <Label fx:id="p2set4" alignment="CENTER" prefHeight="46.0" prefWidth="179.0" style="-fx-background-color: #3E57A5;" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font></Label>
+            <Label fx:id="p2count3" alignment="CENTER" prefHeight="49.0" prefWidth="179.0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font></Label>
+            <Label fx:id="p2count4" alignment="CENTER" prefHeight="49.0" prefWidth="179.0" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font></Label>
+            <Label fx:id="p2timeValue3" alignment="CENTER" prefHeight="52.0" prefWidth="178.0" style="-fx-background-color: #3E57A5;" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font></Label>
+            <Label fx:id="p2timeValue4" alignment="CENTER" prefHeight="48.0" prefWidth="178.0" style="-fx-background-color: #3E57A5;" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
                </font></Label>
          </children>
       </GridPane>
@@ -123,11 +123,11 @@
                <font>
                   <Font name="System Bold" size="19.0" />
                </font></Label>
-            <Label fx:id="p2exerciseName" layoutX="365.0" layoutY="184.0" text="종류" textFill="#7366eb">
+            <Label fx:id="p2exerciseName" layoutX="365.0" layoutY="183.0" text="종류" textFill="#7366eb">
                <font>
                   <Font name="System Bold" size="19.0" />
                </font></Label>
-            <Label layoutX="426.0" layoutY="184.0" text="운동" textFill="WHITE">
+            <Label layoutX="420.0" layoutY="183.0" text="운동" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="19.0" />
                </font></Label>

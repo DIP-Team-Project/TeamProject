@@ -87,16 +87,16 @@ public class MiniProjectSubControl extends MiniProjectMainControl implements Ini
 		for(int i = 0; i < setList.size(); i++) {
 			switch(i) {
 			case 0:
-				p2set1.setText(String.valueOf(setList.get(i)));
+				p2set1.setText(String.valueOf(setList.get(i)) + "세트");
 				break;
 			case 1:
-				p2set2.setText(String.valueOf(setList.get(i)));
+				p2set2.setText(String.valueOf(setList.get(i)) + "세트");
 				break;
 			case 2:
-				p2set3.setText(String.valueOf(setList.get(i)));
+				p2set3.setText(String.valueOf(setList.get(i)) + "세트");
 				break;
 			case 3:
-				p2set4.setText(String.valueOf(setList.get(i)));
+				p2set4.setText(String.valueOf(setList.get(i)) + "세트");
 				break;
 			}
 		}
@@ -107,16 +107,16 @@ public class MiniProjectSubControl extends MiniProjectMainControl implements Ini
 		for(int i = 0; i < countList.size(); i++) {
 			switch(i) {
 			case 0:
-				p2count1.setText(String.valueOf(countList.get(i)));
+				p2count1.setText(String.valueOf(countList.get(i)) + "개");
 				break;
 			case 1:
-				p2count2.setText(String.valueOf(countList.get(i)));
+				p2count2.setText(String.valueOf(countList.get(i)) + "개");
 				break;
 			case 2:
-				p2count3.setText(String.valueOf(countList.get(i)));
+				p2count3.setText(String.valueOf(countList.get(i)) + "개");
 				break;
 			case 3:
-				p2count4.setText(String.valueOf(countList.get(i)));
+				p2count4.setText(String.valueOf(countList.get(i)) + "개");
 			}
 		}
 	}
@@ -126,16 +126,16 @@ public class MiniProjectSubControl extends MiniProjectMainControl implements Ini
 		for(int i = 0; i < timeList.size(); i++) {
 			switch(i) {
 			case 0:
-				p2timeValue1.setText(String.valueOf(timeList.get(i)));
+				p2timeValue1.setText(String.valueOf(timeList.get(i)) + "초");
 				break;
 			case 1:
-				p2timeValue2.setText(String.valueOf(timeList.get(i)));
+				p2timeValue2.setText(String.valueOf(timeList.get(i)) + "초");
 				break;
 			case 2:
-				p2timeValue3.setText(String.valueOf(timeList.get(i)));
+				p2timeValue3.setText(String.valueOf(timeList.get(i)) + "초");
 				break;
 			case 3:
-				p2timeValue4.setText(String.valueOf(timeList.get(i)));
+				p2timeValue4.setText(String.valueOf(timeList.get(i)) + "초");
 			}
 		}
 	}

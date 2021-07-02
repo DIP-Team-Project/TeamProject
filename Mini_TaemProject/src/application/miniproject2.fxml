@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.GridPane?>
 
-<AnchorPane prefHeight="633.0" prefWidth="900.0" style="-fx-background-color: #2A2B40;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="633.0" prefWidth="900.0" style="-fx-background-color: #2A2B40;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MiniProjectSubControl">
    <children>
       <GridPane layoutX="93.0" layoutY="269.0" prefHeight="234.0" prefWidth="715.0" style="-fx-background-color: #5661DB;">
         <columnConstraints>
@@ -23,7 +23,7 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label alignment="CENTER" prefHeight="20.0" prefWidth="227.0" text=" 개수2" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <Label fx:id="p2count2" alignment="CENTER" prefHeight="20.0" prefWidth="227.0" text=" 개수2" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
                <font>
                   <Font name="System Bold" size="16.0" />
                </font></Label>
@@ -105,13 +105,13 @@
                </font></Label>
          </children>
       </GridPane>
-      <Button fx:id="p2endButton" alignment="CENTER" layoutX="378.0" layoutY="533.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="129.0" style="-fx-background-color: #B6CEFA;" text="Close">
+      <Button fx:id="p2endButton" alignment="CENTER" layoutX="378.0" layoutY="533.0" mnemonicParsing="false" onAction="#closeBtnOnAction" prefHeight="55.0" prefWidth="129.0" style="-fx-background-color: #B6CEFA;" text="Close">
          <font>
             <Font name="Lucida Sans Regular" size="18.0" />
          </font></Button>
       <Pane layoutX="78.0" layoutY="14.0" prefHeight="223.0" prefWidth="746.0" style="-fx-background-color: #2A2B40;">
          <children>
-            <Label fx:id="p2date" layoutX="246.0" layoutY="23.0" text="yyyy-mm-dd" textFill="WHITE">
+            <Label fx:id="p2date" layoutX="276.0" layoutY="23.0" text="yyyy-mm-dd" textFill="WHITE">
                <font>
                   <Font size="40.0" />
                </font></Label>
@@ -123,7 +123,7 @@
                <font>
                   <Font name="System Bold" size="19.0" />
                </font></Label>
-            <Label layoutX="365.0" layoutY="184.0" text="종류" textFill="#7366eb">
+            <Label fx:id="p2exerciseName" layoutX="365.0" layoutY="184.0" text="종류" textFill="#7366eb">
                <font>
                   <Font name="System Bold" size="19.0" />
                </font></Label>

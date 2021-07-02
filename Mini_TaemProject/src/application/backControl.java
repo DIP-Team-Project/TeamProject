@@ -20,7 +20,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.util.Duration;
 
-public class ShoulderControl extends MiniProjectMainControl implements Initializable{
+public class backControl extends MiniProjectMainControl implements Initializable{
 		// 시작시간, 종료시간, 토탈시간
 		@FXML private Button start1;
 		@FXML private Button start2;
@@ -74,19 +74,7 @@ public class ShoulderControl extends MiniProjectMainControl implements Initializ
 		
 
 	@Override
-	public void initialize(URL location, ResourceBundle resources) {	
-		//텍스트 필드 클리어
-		if(resultCheck == true) {
-			set1.clear();
-			set2.clear();
-			set3.clear();
-			set4.clear();
-			count1.clear();
-			count2.clear();
-			count3.clear();
-			count4.clear();
-		}
-		
+	public void initialize(URL location, ResourceBundle resources) {		
 		// 시작, 종료 버튼 리스너
 		start1.setOnAction(e->start1HandleBtnOnAction(e));
 		end1.setOnAction(e->end1HandleBtnOnAction(e));

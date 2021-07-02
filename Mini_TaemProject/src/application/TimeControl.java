@@ -20,6 +20,8 @@ public class TimeControl implements Initializable {
 	@FXML private TextField timetext;
 	@FXML private Button strbnt;
 	private boolean stop;
+	
+	
 	public void initialize(URL location, ResourceBundle resources) {
 		stop = false;
 		Thread thread = new Thread() {

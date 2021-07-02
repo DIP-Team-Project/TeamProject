@@ -8,8 +8,8 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TimeControl">
    <children>
-      <Label prefHeight="87.0" prefWidth="600.0" style="-fx-background-color: #B6CEFA;" />
-   		<Label fx:id="lblTime" alignment="CENTER" layoutX="151.0" layoutY="14.0" prefHeight="59.0" prefWidth="298.0" style="-fx-background-color: white; -fx-text-fill: black;" text="yyyy.MM.dd HH:mm:ss" textAlignment="CENTER">
+      <Label layoutX="152.0" prefHeight="87.0" prefWidth="298.0" style="-fx-background-color: #B6CEFA;" />
+   		<Label fx:id="lblTime" alignment="CENTER" layoutX="151.0" layoutY="14.0" prefHeight="59.0" prefWidth="298.0" style="-fx-background-color: white; -fx-text-fill: black; -fx-background-radius: 10;" text="yyyy.MM.dd HH:mm:ss" textAlignment="CENTER">
          <font>
             <Font name="Arial Black" size="15.0" />
          </font>

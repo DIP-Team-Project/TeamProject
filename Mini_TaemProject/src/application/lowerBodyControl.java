@@ -74,6 +74,17 @@ public class lowerBodyControl extends MiniProjectMainControl implements Initiali
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
+		//텍스트 필드 클리어
+		if(resultCheck == true) {
+			set1.clear();
+			set2.clear();
+			set3.clear();
+			set4.clear();
+			count1.clear();
+			count2.clear();
+			count3.clear();
+			count4.clear();
+		}
 		// 시작, 종료 버튼 리스너
 		start1.setOnAction(e->start1HandleBtnOnAction(e));
 		end1.setOnAction(e->end1HandleBtnOnAction(e));

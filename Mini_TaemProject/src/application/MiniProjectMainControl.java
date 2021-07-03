@@ -68,11 +68,12 @@ public class MiniProjectMainControl implements Initializable{
 	
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
+		Button[] mainBtn = {shoulder, chest, back, lowerBody};
 		// 메인버튼 클릭 리스너
-		shoulder.setOnAction(e->shoulderHandleBtnOnAction(e));// 어깨
-		chest.setOnAction(e->chestHandleBtnOnAction(e));// 가슴
-		back.setOnAction(e->backHandleBtnOnAction(e));// 등
-		lowerBody.setOnAction(e->lowerBodyHandleBtnOnAction(e));// 하체
+		mainBtn[0].setOnAction(e->shoulderHandleBtnOnAction(e));// 어깨
+		mainBtn[1].setOnAction(e->chestHandleBtnOnAction(e));// 가슴
+		mainBtn[2].setOnAction(e->backHandleBtnOnAction(e));// 등
+		mainBtn[3].setOnAction(e->lowerBodyHandleBtnOnAction(e));// 하체
 		
 		//결과보기 버튼 클릭 리스너
 		resultButton.setOnAction(e->resultHendleBtnOnAction(e));
@@ -132,67 +133,36 @@ public class MiniProjectMainControl implements Initializable{
 	
 	//메인 버튼에 해당하는 이미지 넣기
 	public void initImage(int num) {
+		ImageView[] images = {image1, image2, image3, image4};
 			switch(num) {
 			case 1:
 				//어깨
-				initShorderImage();
+				images[0].setImage(new Image(getClass().getResourceAsStream("/images/dumbbell.jpg")));
+				images[1].setImage(new Image(getClass().getResourceAsStream("/images/bentover.jfif")));
+				images[2].setImage(new Image(getClass().getResourceAsStream("/images/side.png")));
+				images[3].setImage(new Image(getClass().getResourceAsStream("/images/overhead.jfif")));
 				break;
 			case 2:
 				//가슴
-				initChestImage();
+				images[0].setImage(new Image(getClass().getResourceAsStream("/images/Press.jpg")));
+				images[1].setImage(new Image(getClass().getResourceAsStream("/images/fly.png")));
+				images[2].setImage(new Image(getClass().getResourceAsStream("/images/bench_press.jpg")));
+				images[3].setImage(new Image(getClass().getResourceAsStream("/images/Incline.jpg")));
 				break;
 			case 3:
 				//등
-				initBackImage();
+				images[0].setImage(new Image(getClass().getResourceAsStream("/images/let_pool.PNG")));
+				images[1].setImage(new Image(getClass().getResourceAsStream("/images/city.PNG")));
+				images[2].setImage(new Image(getClass().getResourceAsStream("/images/Wonam.PNG")));
+				images[3].setImage(new Image(getClass().getResourceAsStream("/images/pull_up.PNG")));
 				break;
 			case 4:
 				//하체
-				initlowerBodyImage();
+				images[0].setImage(new Image(getClass().getResourceAsStream("/images/extension.png")));
+				images[1].setImage(new Image(getClass().getResourceAsStream("/images/squat.PNG")));
+				images[2].setImage(new Image(getClass().getResourceAsStream("/images/Wonam.PNG")));
+				images[3].setImage(new Image(getClass().getResourceAsStream("/images/standing.PNG")));
 		}
-	}
-	//어깨이미지.
-	public void initShorderImage() {
-		Image imProfile1 = new Image(getClass().getResourceAsStream("/images/dumbbell.jpg"));
-		image1.setImage(imProfile1);
-		Image imProfile2 = new Image(getClass().getResourceAsStream("/images/bentover.jfif"));
-		image2.setImage(imProfile2);
-		Image imProfile3 = new Image(getClass().getResourceAsStream("/images/side.png"));
-		image3.setImage(imProfile3);
-		Image imProfile4 = new Image(getClass().getResourceAsStream("/images/overhead.jfif"));
-		image4.setImage(imProfile4);
-	}
-	//가슴이미지.
-	public void initChestImage() {
-		Image imProfile1 = new Image(getClass().getResourceAsStream("/images/Press.jpg"));
-		image1.setImage(imProfile1);
-		Image imProfile2 = new Image(getClass().getResourceAsStream("/images/fly.png"));
-		image2.setImage(imProfile2);
-		Image imProfile3 = new Image(getClass().getResourceAsStream("/images/bench_press.jpg"));
-		image3.setImage(imProfile3);
-		Image imProfile4 = new Image(getClass().getResourceAsStream("/images/Incline.jpg"));
-		image4.setImage(imProfile4);
-	}
-	//등이미지.
-	public void initBackImage() {
-		Image imProfile1 = new Image(getClass().getResourceAsStream("/images/let_pool.PNG"));
-		image1.setImage(imProfile1);
-		Image imProfile2 = new Image(getClass().getResourceAsStream("/images/city.PNG"));
-		image2.setImage(imProfile2);
-		Image imProfile3 = new Image(getClass().getResourceAsStream("/images/Wonam.PNG"));
-		image3.setImage(imProfile3);
-		Image imProfile4 = new Image(getClass().getResourceAsStream("/images/pull_up.PNG"));
-		image4.setImage(imProfile4);
-	}
-	//하체이미지.
-	public void initlowerBodyImage() {
-		Image imProfile1 = new Image(getClass().getResourceAsStream("/images/extension.png"));
-		image1.setImage(imProfile1);
-		Image imProfile2 = new Image(getClass().getResourceAsStream("/images/curl.jpg"));
-		image2.setImage(imProfile2);
-		Image imProfile3 = new Image(getClass().getResourceAsStream("/images/squat.PNG"));
-		image3.setImage(imProfile3);
-		Image imProfile4 = new Image(getClass().getResourceAsStream("/images/standing.PNG"));
-		image4.setImage(imProfile4);
 	}
 	
 	//결과보기 버튼 

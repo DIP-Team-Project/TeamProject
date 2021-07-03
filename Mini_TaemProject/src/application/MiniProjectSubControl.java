@@ -50,10 +50,11 @@ public class MiniProjectSubControl extends MiniProjectMainControl implements Ini
 		p2date.setText(DateTimeFormatter.ofPattern("yyyy-MM-dd", Locale.ENGLISH).format(ldt).toString());
 		p2exerciseName.setText(part);
 		p2endButton.setOnAction(e->closeBtnOnAction(e));
-		nameOfList();// 운동이름 넣기.
-		setOfList();// 세트
-		countOfList();// 개수
-		timeOfList();// 총 타이머
+		initOfList();
+//		nameOfList();// 운동이름 넣기.
+//		setOfList();// 세트
+//		countOfList();// 개수
+//		timeOfList();// 총 타이머
 	}
 	
 	// 닫기 버튼 클릭시 리스너
@@ -64,78 +65,37 @@ public class MiniProjectSubControl extends MiniProjectMainControl implements Ini
 		dialog.close();
 	}
 	
-	//리스트에 값 넣기.
-	public void nameOfList() {
+	public void initOfList() {
+		Label[] name = {p2exercise1, p2exercise2, p2exercise3, p2exercise4};
+		Label[] set = {p2set1, p2set2, p2set3, p2set4};
+		Label[] count = {p2count1, p2count2, p2count3, p2count4};
+		Label[] time = {p2timeValue1, p2timeValue2, p2timeValue3, p2timeValue4};
+		
 		for(int i = 0; i < checkList.size(); i++) {
 			switch(i) {
 			case 0:
-				p2exercise1.setText(checkList.get(i));
+				name[0].setText(checkList.get(i));
+				set[0].setText(setList.get(i) + "세트");
+				count[0].setText(countList.get(i) + "개");
+				time[0].setText(timeList.get(i) + "초");
 				break;
 			case 1:
-				p2exercise2.setText(checkList.get(i));
+				name[1].setText(checkList.get(i));
+				set[1].setText(setList.get(i) + "세트");
+				count[1].setText(countList.get(i) + "개");
+				time[1].setText(timeList.get(i) + "초");
 				break;
 			case 2:
-				p2exercise3.setText(checkList.get(i));
+				name[2].setText(checkList.get(i));
+				set[2].setText(setList.get(i) + "세트");
+				count[2].setText(countList.get(i) + "개");
+				time[2].setText(timeList.get(i) + "초");
 				break;
 			case 3:
-				p2exercise4.setText(checkList.get(i));
-			}
-		}
-	}
-	
-	public void setOfList() {
-		for(int i = 0; i < setList.size(); i++) {
-			switch(i) {
-			case 0:
-				p2set1.setText(String.valueOf(setList.get(i)) + "세트");
-				break;
-			case 1:
-				p2set2.setText(String.valueOf(setList.get(i)) + "세트");
-				break;
-			case 2:
-				p2set3.setText(String.valueOf(setList.get(i)) + "세트");
-				break;
-			case 3:
-				p2set4.setText(String.valueOf(setList.get(i)) + "세트");
-				break;
-			}
-		}
-	}
-	
-	public void countOfList() {
-	
-		for(int i = 0; i < countList.size(); i++) {
-			switch(i) {
-			case 0:
-				p2count1.setText(String.valueOf(countList.get(i)) + "개");
-				break;
-			case 1:
-				p2count2.setText(String.valueOf(countList.get(i)) + "개");
-				break;
-			case 2:
-				p2count3.setText(String.valueOf(countList.get(i)) + "개");
-				break;
-			case 3:
-				p2count4.setText(String.valueOf(countList.get(i)) + "개");
-			}
-		}
-	}
-	
-	public void timeOfList() {
-		
-		for(int i = 0; i < timeList.size(); i++) {
-			switch(i) {
-			case 0:
-				p2timeValue1.setText(String.valueOf(timeList.get(i)) + "초");
-				break;
-			case 1:
-				p2timeValue2.setText(String.valueOf(timeList.get(i)) + "초");
-				break;
-			case 2:
-				p2timeValue3.setText(String.valueOf(timeList.get(i)) + "초");
-				break;
-			case 3:
-				p2timeValue4.setText(String.valueOf(timeList.get(i)) + "초");
+				name[3].setText(checkList.get(i));
+				set[3].setText(setList.get(i) + "세트");
+				count[3].setText(countList.get(i) + "개");
+				time[3].setText(timeList.get(i) + "초");
 			}
 		}
 	}

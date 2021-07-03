@@ -74,7 +74,18 @@ public class backControl extends MiniProjectMainControl implements Initializable
 		
 
 	@Override
-	public void initialize(URL location, ResourceBundle resources) {		
+	public void initialize(URL location, ResourceBundle resources) {	
+		//텍스트 필드 클리어
+		if(resultCheck == true) {
+			set1.clear();
+			set2.clear();
+			set3.clear();
+			set4.clear();
+			count1.clear();
+			count2.clear();
+			count3.clear();
+			count4.clear();
+		}
 		// 시작, 종료 버튼 리스너
 		start1.setOnAction(e->start1HandleBtnOnAction(e));
 		end1.setOnAction(e->end1HandleBtnOnAction(e));
@@ -110,8 +121,6 @@ public class backControl extends MiniProjectMainControl implements Initializable
 		initTimerStart1(); 
 		setList.add(set1.getText());
 		countList.add(count1.getText());
-		System.out.println(setList.get(0));
-		System.out.println(countList.get(0));
 	}
 	public void end1HandleBtnOnAction(ActionEvent event){
 		timeLine1.stop(); //timeLine멈춤

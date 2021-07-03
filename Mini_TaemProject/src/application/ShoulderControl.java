@@ -87,7 +87,7 @@ public class ShoulderControl extends MiniProjectMainControl implements Initializ
 			count4.clear();
 		}
 		
-		// Ω√¿€, ¡æ∑· πˆ∆∞ ∏ÆΩ∫≥ 
+//		// Ω√¿€, ¡æ∑· πˆ∆∞ ∏ÆΩ∫≥ 
 		start1.setOnAction(e->start1HandleBtnOnAction(e));
 		end1.setOnAction(e->end1HandleBtnOnAction(e));
 		start2.setOnAction(e->start2HandleBtnOnAction(e));
@@ -115,6 +115,10 @@ public class ShoulderControl extends MiniProjectMainControl implements Initializ
         timeLine4 = new Timeline(); // timeLine ∞¥√º √ ±‚»≠
         timeLine4.setCycleCount(Timeline.INDEFINITE);
         timeLine4.play();
+		Button[] startBtn = {start1, start2, start3, start4};
+		Button[] endBtn = {end1, end2, end3, end4};
+		CheckBox[] checkName = {exercise1, exercise2, exercise3, exercise4};
+		Timeline[] timeLine = {timeLine1, timeLine2, timeLine3, timeLine4};
 	}
 	
 	// Ω√∞£ ∞ËªÍ π◊ πˆ∆∞ 
@@ -122,12 +126,9 @@ public class ShoulderControl extends MiniProjectMainControl implements Initializ
 		initTimerStart1(); 
 		setList.add(set1.getText());
 		countList.add(count1.getText());
-		System.out.println(setList.get(0));
-		System.out.println(countList.get(0));
 	}
 	public void end1HandleBtnOnAction(ActionEvent event){
 		timeLine1.stop(); //timeLine∏ÿ√„
-		System.out.println(timeValue1.getText());
 		timeList.add(timeValue1.getText());
 	}
 	public void start2HandleBtnOnAction(ActionEvent event){
@@ -137,7 +138,6 @@ public class ShoulderControl extends MiniProjectMainControl implements Initializ
 	}
 	public void end2HandleBtnOnAction(ActionEvent event){
 		timeLine2.stop(); //timeLine∏ÿ√„
-		System.out.println(timeValue2.getText());
 		timeList.add(timeValue2.getText());
 	}
 	public void start3HandleBtnOnAction(ActionEvent event){
@@ -147,7 +147,6 @@ public class ShoulderControl extends MiniProjectMainControl implements Initializ
 	}
 	public void end3HandleBtnOnAction(ActionEvent event){
 		timeLine3.stop(); //timeLine∏ÿ√„
-		System.out.println(timeValue3.getText());
 		timeList.add(timeValue3.getText());
 	}
 	public void start4HandleBtnOnAction(ActionEvent event){
@@ -157,7 +156,6 @@ public class ShoulderControl extends MiniProjectMainControl implements Initializ
 	}
 	public void end4HandleBtnOnAction(ActionEvent event){
 		timeLine4.stop(); //timeLine∏ÿ√„
-		System.out.println(timeValue4.getText());
 		timeList.add(timeValue4.getText());
 	}
 	

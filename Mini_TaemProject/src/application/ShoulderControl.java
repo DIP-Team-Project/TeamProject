@@ -18,6 +18,7 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.text.Font;
 import javafx.util.Duration;
 
 public class ShoulderControl extends MiniProjectMainControl implements Initializable{
@@ -74,7 +75,7 @@ public class ShoulderControl extends MiniProjectMainControl implements Initializ
 		
 
 	@Override
-	public void initialize(URL location, ResourceBundle resources) {	
+	public void initialize(URL location, ResourceBundle resources) {
 		//텍스트 필드 클리어
 		if(resultCheck == true) {
 			set1.clear();

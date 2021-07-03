@@ -69,6 +69,13 @@ public class MiniProjectMainControl implements Initializable{
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 		Button[] mainBtn = {shoulder, chest, back, lowerBody};
+		//처음 화면 이미지.
+		ImageView[] images = {image1, image2, image3, image4};
+		images[0].setImage(new Image(getClass().getResourceAsStream("/images/noSelect1.png")));
+		images[1].setImage(new Image(getClass().getResourceAsStream("/images/noSelect2.jfif")));
+		images[2].setImage(new Image(getClass().getResourceAsStream("/images/noSelect1.png")));
+		images[3].setImage(new Image(getClass().getResourceAsStream("/images/noSelect2.jfif")));
+		
 		// 메인버튼 클릭 리스너
 		mainBtn[0].setOnAction(e->shoulderHandleBtnOnAction(e));// 어깨
 		mainBtn[1].setOnAction(e->chestHandleBtnOnAction(e));// 가슴

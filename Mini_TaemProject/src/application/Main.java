@@ -7,11 +7,13 @@ import javafx.stage.StageStyle;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.text.Font;
 
 
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
+		Font.loadFont(getClass().getResourceAsStream("RixFont-Regular.ttf"), 14);
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("miniproject1.fxml"));
 		Parent root = loader.load();
 		MiniProjectMainControl controller = loader.getController();

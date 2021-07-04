@@ -33,7 +33,7 @@ public class TimeControl implements Initializable {
 					Platform.runLater(()->{
 						lblTime.setMaxSize(1000, 500);
 						lblTime.setTextFill(javafx.scene.paint.Color.BLACK);
-						lblTime.setFont(Font.font("Arial", FontWeight.BOLD, 30));
+						lblTime.setFont(Font.font("LABDigital", FontWeight.BOLD, 30));
 						lblTime.setText(strTime);
 					});
 					try { Thread.sleep(100); } catch (InterruptedException e) {}

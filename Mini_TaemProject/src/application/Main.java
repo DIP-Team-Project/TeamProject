@@ -15,6 +15,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) throws Exception {
 		System.setProperty("prism.lcdtext", "false");
 		Font.loadFont(getClass().getResourceAsStream("RixFont-Regular.ttf"), 14);
+		Font.loadFont(getClass().getResourceAsStream("LABDigital.ttf"), 14);
 		FXMLLoader loader = new FXMLLoader(getClass().getResource("miniproject1.fxml"));
 		Parent root = loader.load();
 		MiniProjectMainControl controller = loader.getController();

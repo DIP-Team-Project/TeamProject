@@ -46,68 +46,96 @@
                         <Insets left="20.0" />
                      </GridPane.margin>
                   </CheckBox>
-                  <Button fx:id="start1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#start1HandleBtnOnAction" prefHeight="29.0" prefWidth="76.0" text="시작" GridPane.columnIndex="3" GridPane.rowIndex="1">
-                     <font>
-                        <Font name="Arial Bold" size="16.0" />
-                     </font>
+                  <Button fx:id="start1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#start1HandleBtnOnAction" prefHeight="34.0" prefWidth="46.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <graphic>
+                     		<ImageView fitHeight="34.0" fitWidth="46.0" preserveRatio="true">
+                       			<image>
+                                 	<Image url="@../images/start.PNG" />
+                        		</image>
+                        	</ImageView>
+                     	</graphic>
                      <GridPane.margin>
-                        <Insets left="30.0" />
+                        <Insets left="40.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button fx:id="start2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#start2HandleBtnOnAction" prefHeight="30.0" prefWidth="77.0" text="시작" GridPane.columnIndex="3" GridPane.rowIndex="2">
-                     <font>
-                        <Font name="Arial Bold" size="16.0" />
-                     </font>
+                  <Button fx:id="start2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#start2HandleBtnOnAction" prefHeight="34.0" prefWidth="46.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                    <graphic>
+                     		<ImageView fitHeight="34.0" fitWidth="46.0" preserveRatio="true">
+                       			<image>
+                                 	<Image url="@../images/start.PNG" />
+                        		</image>
+                        	</ImageView>
+                     	</graphic>
                      <GridPane.margin>
-                        <Insets left="30.0" />
+                        <Insets left="40.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button fx:id="start3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#start3HandleBtnOnAction" prefHeight="31.0" prefWidth="75.0" text="시작" GridPane.columnIndex="3" GridPane.rowIndex="3">
-                     <font>
-                        <Font name="Arial Bold" size="16.0" />
-                     </font>
+                  <Button fx:id="start3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#start3HandleBtnOnAction" prefHeight="34.0" prefWidth="46.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                   	<graphic>
+                     		<ImageView fitHeight="34.0" fitWidth="46.0" preserveRatio="true">
+                       			<image>
+                                 	<Image url="@../images/start.PNG" />
+                        		</image>
+                        	</ImageView>
+                     	</graphic>
                      <GridPane.margin>
-                        <Insets left="30.0" />
+                        <Insets left="40.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button fx:id="start4" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#start4HandleBtnOnAction" prefHeight="31.0" prefWidth="75.0" text="시작" GridPane.columnIndex="3" GridPane.rowIndex="4">
-                     <font>
-                        <Font name="Arial Bold" size="16.0" />
-                     </font>
+                  <Button fx:id="start4" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#start4HandleBtnOnAction" prefHeight="34.0" prefWidth="46.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                    <graphic>
+                     		<ImageView fitHeight="34.0" fitWidth="46.0" preserveRatio="true">
+                       			<image>
+                                 	<Image url="@../images/start.PNG" />
+                        		</image>
+                        	</ImageView>
+                     	</graphic>
                      <GridPane.margin>
-                        <Insets left="30.0" />
+                        <Insets left="40.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button fx:id="end1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#end1HandleBtnOnAction" prefHeight="30.0" prefWidth="79.0" text="멈춤" GridPane.columnIndex="4" GridPane.rowIndex="1">
-                     <font>
-                        <Font name="Arial Bold" size="16.0" />
-                     </font>
+                  <Button fx:id="end1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#end1HandleBtnOnAction" prefHeight="34.0" prefWidth="46.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                    <graphic>
+                     		<ImageView fitHeight="34.0" fitWidth="46.0" preserveRatio="true">
+                        <image>
+                              <Image url="@../images/stop.PNG" />
+                        </image></ImageView>
+                     	</graphic>
                      <GridPane.margin>
-                        <Insets left="30.0" />
+                        <Insets left="40.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button fx:id="end2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#end2HandleBtnOnAction" prefHeight="33.0" prefWidth="80.0" text="멈춤" GridPane.columnIndex="4" GridPane.rowIndex="2">
-                     <font>
-                        <Font name="Arial Bold" size="16.0" />
-                     </font>
+                  <Button fx:id="end2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#end2HandleBtnOnAction" prefHeight="34.0" prefWidth="46.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                   	<graphic>
+                     		<ImageView fitHeight="34.0" fitWidth="46.0" preserveRatio="true">
+                        <image>
+                              <Image url="@../images/stop.PNG" />
+                        </image></ImageView>
+                     	</graphic>
                      <GridPane.margin>
-                        <Insets left="30.0" />
+                        <Insets left="40.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button fx:id="end3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#end3HandleBtnOnAction" prefHeight="28.0" prefWidth="80.0" text="멈춤" GridPane.columnIndex="4" GridPane.rowIndex="3">
-                     <font>
-                        <Font name="Arial Bold" size="16.0" />
-                     </font>
+                  <Button fx:id="end3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#end3HandleBtnOnAction" prefHeight="34.0" prefWidth="46.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                   <graphic>
+                     		<ImageView fitHeight="34.0" fitWidth="46.0" preserveRatio="true">
+                        <image>
+                              <Image url="@../images/stop.PNG" />
+                        </image></ImageView>
+                     	</graphic>
                      <GridPane.margin>
-                        <Insets left="30.0" />
+                        <Insets left="40.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button fx:id="end4" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#end4HandleBtnOnAction" prefHeight="28.0" prefWidth="80.0" text="멈춤" GridPane.columnIndex="4" GridPane.rowIndex="4">
-                     <font>
-                        <Font name="Arial Bold" size="16.0" />
-                     </font>
+                  <Button fx:id="end4" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#end4HandleBtnOnAction" prefHeight="34.0" prefWidth="46.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                   <graphic>
+                     		<ImageView fitHeight="34.0" fitWidth="46.0" preserveRatio="true">
+                        <image>
+                              <Image url="@../images/stop.PNG" />
+                        </image></ImageView>
+                     	</graphic>
                      <GridPane.margin>
-                        <Insets left="30.0" />
+                        <Insets left="40.0" />
                      </GridPane.margin>
                   </Button>
                   <Label fx:id="timeValue1" alignment="CENTER" prefHeight="21.0" prefWidth="136.0" text="0.0" textFill="WHITE" GridPane.columnIndex="5" GridPane.rowIndex="1">

@@ -27,7 +27,7 @@ public class Main extends Application {
 		primaryStage.setTitle("AppMain");
 		primaryStage.show();
 	}
-	
+	// Hi!! my name is jaehun!!
 	public static void main(String[] args) {
 		launch(args);
 		System.out.println("main");
